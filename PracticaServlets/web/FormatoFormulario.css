@@ -1,0 +1,70 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13/09/2024, 11:51:22 a. m.
+    Author     : Andres_Marulanda
+*/
+
+*{box-sizing:border-box;}
+
+body {
+    background-color: rgb(245, 238, 238);
+    max-width: 1500px;
+    padding: 10px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Gill Sans MT', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+form {
+    width : 450px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: #FFF;
+    
+    font-family: 'Gill Sans MT', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+form h3 {
+    font: italic bold 20px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(40, 155, 184);
+    text-align: center;
+}
+
+form p {
+    font-family: 'Gill Sans MT', sans-serif;
+    text-align: center;
+    color:rgb(40, 155, 184);
+    font-weight: bold;
+    font-size: 16px;
+
+    padding-top: 17px;
+}
+
+form label, select, input {
+    margin: 10px;
+    height: 35px;
+    width: 300px;
+}
+
+button {
+    margin: 10px;
+    height: 35px;
+    width: 100px;
+    background-color: rgb(40, 155, 184);
+    border-color: rgb(40, 155, 184);
+    border-radius: 10px;
+    
+    font: italic bold 15px 'Gill Sans MT', sans-serif;
+}
+
+
