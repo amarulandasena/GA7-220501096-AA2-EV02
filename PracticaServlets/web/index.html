@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h1>
+            FORMULARIO DE REGISTRO DE LAS TIENDAS.
+        </h1>
+        <br>
+        
+        <div>
+            <form action = "RegistroTiendas" method = "post">
+                <h3> CREAR TIENDA </h3>
+                <p>
+                    *Ingrese los datos de la tienda como registran en cámara de comercio o en el rut.
+                </p>
+                <br>
+                
+                <label> Código tienda </label>
+                <input type = "text" name = "codigoTienda">
+                <br>
+                
+                <label> Nit tienda </label>
+                <input type = "text" name = "nitTienda">
+                <br>
+                
+                <label> Nombre tienda </label>
+                <input type = "text" name = "nombreTienda">
+                
+                <select name = "ciudadTienda">
+                    <option value = "Santa fé de Bogotá">Santa fé de Bogotá</option>
+                    <option value = "Arauca">Arauca</option>
+                    <option value = "Armenia">Armenia</option>
+                    <option value = "Barranquilla">Barranquilla</option>
+                    <option value = "Cali">Cali</option>
+                    <option value = "Cúcuta">Cúcuta</option>
+                    <option value = "Cartagena">Cartagena</option>
+                    <option value = "Envigado">Envigado</option>
+                    <option value = "Manizales">Manizales</option>
+                    <option value = "Medellín">Medellín</option>
+                    <option value = "Montería">Montería</option>
+                    <option value = "Neiva">Neiva</option>
+                    <option value = "Pasto">Pasto</option>
+                    <option value = "Pereira">Pereira</option>
+                    <option value = "Popayán">Popayán</option>
+                    <option value = "Quibdó">Quibdó</option>
+                    <option value = "Rioacha">Rioacha</option>
+                    <option value = "Santa Marta">Santa Marta</option>
+                    <option value = "Sincelejo">Sincelejo</option>
+                    <option value = "Tunja">Tunja</option>
+                    <option value = "Valledupar">Valledupar</option>
+                    <option value = "Villavicencio">Villavicencio</option>
+                    <option value = "Yopal">Yopal</option>
+                </select>
+                <br>
+                
+                <label> Dirección </label>
+                <input type = "text" name = "direccionTienda">
+                <br>
+                
+                <label> Teléfono tienda </label>
+                <input type = "text" name = "telefonoTienda">
+                <br>
+                
+                <label> Nombre del administrador </label>
+                <input type = "text" name = "nombreAdministrador">
+                <br>
+                
+                <label> Teléfono del administrador </label>
+                <input type = "text" name = "telAdministrador">
+                <br>
+                
+                <button type="submit" name="Crear">
+            </form>
+        </div>
+    </body>
+</html>
