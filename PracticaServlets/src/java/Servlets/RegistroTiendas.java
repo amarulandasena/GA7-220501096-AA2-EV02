@@ -47,7 +47,7 @@ public class RegistroTiendas extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet RegistroTiendas</title>");            
+            out.println("<title>Servlet RegistroTiendas</title>");  
             out.println("</head>");
             out.println("<body>");
             
