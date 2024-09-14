@@ -33,13 +33,33 @@ public class RegistroTiendas extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
+            
+            // Declarar las variables para capturar los datos del formulario.
+            String codigoTienda = request.getParameter("codigoTienda");
+            String nitTienda = request.getParameter("nitTienda");
+            String nombreTienda = request.getParameter("nombreTienda");
+            String ciudadTienda = request.getParameter("ciudadTienda");
+            String direccion = request.getParameter("direccionTienda");
+            String telefono = request.getParameter("telefonoTienda");
+            String nombreAdministrador = request.getParameter("nombreAdministrador");
+            String telefonoAdmin = request.getParameter("telAdministrador");
+            
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet RegistroTiendas</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet RegistroTiendas at " + request.getContextPath() + "</h1>");
+            
+            out.println("<h4> Código: " + codigoTienda + "</h4>");
+            out.println("<h4> Nit: " + nitTienda + "</h4>");
+            out.println("<h4> Nombre: " + nombreTienda + "</h4>");
+            out.println("<h4> Ciudad: " + ciudadTienda + "</h4>");
+            out.println("<h4> Dirección: " + direccion + "</h4>");
+            out.println("<h4> Teléfono: " + telefono + "</h4>");
+            out.println("<h4> Administrador: " + nombreAdministrador + "</h4>");
+            out.println("<h4> Teléfono administrador: " + telefonoAdmin + "</h4>");
+            
             out.println("</body>");
             out.println("</html>");
         }
